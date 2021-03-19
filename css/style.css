@@ -1,0 +1,84 @@
+.letra{
+    font-family: 'Roboto', sans-serif;
+    font-weight:400 ;
+    text-transform: uppercase;
+  
+}
+
+.header{
+    background: url(/img/mujer-box.jpg) ;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.navbar{
+    background-color: rgb(103, 102, 182);
+}
+.article .card{
+    margin-top: 20px;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(107, 107, 107, 0.466);
+    background-color:#94905f;
+ 
+
+}
+.card-body h5{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+}
+.card-body p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+.bg{
+    background-color: rgb(34, 33, 33);
+}
+
+@media (max-width:900px){
+    .header{
+        background: url(/img/mujer-box.jpg);
+        background-size:cover ;
+        background-position:center;
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+    .text-center{
+        width: 90%;
+        height: auto;
+        background-color: rgba(216, 191, 216, 0.233);
+        margin: 20px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+}
+    .text-center p{
+        padding: 20px;
+        color: rgb(238, 231, 231);
+        font-size: 14px;
+    }
+    .text-center h3{
+        padding: 20px;
+        color: rgb(17, 16, 16);
+        font-size: 30px;
+    }
+    .navbar-brand{
+        margin: auto;
+    }
+    .navbar-toggler-icon img{
+        background-color: black;
+        
+    }
+  
+}
